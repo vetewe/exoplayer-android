@@ -23,16 +23,16 @@ class PlaybackService : MediaSessionService() {
             .setUri("https://github.com/dicodingacademy/assets/releases/download/release-video/VideoDicoding.mp4")
             .setMediaMetadata(
                 MediaMetadata.Builder()
-                    .setTitle("Bersama Dicoding, Kembangkan Dirimu Menjadi Talenta Digital Berstandar Global")
-                    .setArtist("Dicoding")
+                    .setTitle(getString(R.string.bersama_dicoding_kembangkan_dirimu_menjadi_talenta_digital_berstandar_global))
+                    .setArtist(getString(R.string.dicoding))
                     .build()
             ).build()
         val audioItem = MediaItem.Builder()
             .setUri("https://github.com/dicodingacademy/assets/raw/main/android_intermediate_academy/bensound_ukulele.mp3")
             .setMediaMetadata(
                 MediaMetadata.Builder()
-                    .setTitle("Ukulele")
-                    .setArtist("Bensound")
+                    .setTitle(getString(R.string.ukulele))
+                    .setArtist(getString(R.string.bensound))
                     .build()
             ).build()
 

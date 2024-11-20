@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyExoPlayer</string>
+    <string name="bersama_dicoding_kembangkan_dirimu_menjadi_talenta_digital_berstandar_global">Bersama Dicoding, Kembangkan Dirimu Menjadi Talenta Digital Berstandar Global</string>
+    <string name="dicoding">Dicoding</string>
+    <string name="ukulele">Ukulele</string>
+    <string name="bensound">Bensound</string>
 </resources>
